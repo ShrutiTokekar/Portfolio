@@ -1,0 +1,102 @@
+/* Applies to all webpages */ 
+/* Index html style */
+body{
+    background-image: url('../images/background_image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font:16px arial, sans-serif;
+}
+tr,td{
+    padding:5px;
+}
+table,tr,td{
+    border: 2px solid black; 
+}
+.table_1 {
+    width: 800px; 
+    height: 500px; 
+    border-collapse: collapse; 
+    background-color: lavender; 
+    margin: auto; 
+    padding:10px;
+    text-align:left; 
+}
+#tr_style1{
+    height: 100px;
+}
+#td_style{
+    width: 150px;
+}
+#td_1st{
+    color: palevioletred;
+     font-size: 16px;  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#tr_style2{
+    height: 400px;
+}
+.td_font{
+    font-family:'Courier New', Courier, monospace;
+
+}
+a {
+    color:rgb(158, 147, 223);
+}
+
+
+/* bio page style */
+
+.table_2{
+    border-collapse: collapse; 
+    background-color: rgb(178, 163, 191); 
+    margin-left: auto; 
+    margin-right: auto;
+    height: 200px;
+    
+}
+
+/* resume */
+
+.table_3{
+    width: 700px;
+    border-collapse: collapse; 
+    background-color: thistle; 
+    margin-left: auto; 
+    margin-right: auto;
+    height: 200px;
+    color:rgb(100, 69, 122);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ol{
+    list-style-type:upper-roman;
+}
+
+/* Schedule html page style */
+
+.table_4{
+    width: 800px;
+    border-collapse: collapse; 
+    background-color: rgb(119, 94, 138);
+    margin-left: auto; 
+    margin-right: auto;
+    height: 200px;
+    color:darksalmon;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#class_1{
+    background-color:rgb(195, 189, 228);
+    color:rgb(119, 94, 138);;
+    text-align: center;
+}
+#class_2{
+    background-color:thistle;
+    color: rgb(119, 94, 138);;
+    text-align: center;
+}
+#lunch{
+    background-color: rgb(223, 173, 223);
+    color: rgb(119, 94, 138);
+    text-align: center;
+}
