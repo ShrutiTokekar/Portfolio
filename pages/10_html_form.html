@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--Name: Shruti Tokekar
+Date: 11/24/2024
+Section number: 56
+PL#: 10
+Description: This program uses absolute positioning and will  display a form page for user to fill out personal information field as well as contatct informations-->
+<html>
+ <head>
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="../css/screen.css">
+    <script type="text/javascript" >
+        function validate()
+        {
+        alert('Testing: Button works and script is called...');
+        return true;
+        }
+    </script>
+</head>
+<body>
+    <div id = "logo">
+        <img id="td_style" src = "../images/logo.jpg" alt ="logo" width = "150px" >
+    </div>
+
+    <div id = "banner">
+        <h1 id = "td_1st">HTML Form</h1>
+    </div>
+
+    <div id = "navigation4">
+        <nav>
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="2_html_bio.html">HTML BIO</a></li>
+                <li><a href="3_html_resume.html">HTML RESUME</a></li>
+                <li><a href="4_css_schedule.html">CSS SCHEDULE</a></li>
+                <li><a href="6_nav_style.html">CSS NAVIGATION STYLE</a></li>
+                <li><a href="7_print_style.html">CSS PRINT STYLE</a></li>
+                <li><a href="8_absolute_positioning.html">ABSOLUTE POSITIONING</a></li>
+                <li><a href="9_fixed_positioning.html">FIXED POSITIONING</a></li>
+                <li><a href="11_simple_validation.html">SIMPLE FORM VALIDATION</a></li>
+            </ul>
+        </nav>  
+    </div>
+    
+    <div id ="content2">
+        <form action="#" method="post" onsubmit="return validate();">
+                <fieldset>
+                    <legend><strong>Personal Information</strong></legend>
+                    <p>First Name: <input type = "text" name = "f_name" size = "25"> Last Name: <input type = "text" name = "l_name" size = "25"></p>
+                    <p>Gender:  <input type ="radio" name ="gender" value = "m">Male  <input type ="radio" name ="gender" value = "f">Female </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend><strong>Contact Information</strong></legend>
+                    <p>Street Number: <input type = "text" name = "s_num" size = "10"> 
+                        Street Name: <input type = "text" name = "s_name" size = "30">
+                    </p>
+                    <p>
+                        City: <input type = "text" name = "c_name" size = "15">
+                        State: <select name = "state"> 
+                        <option value = "de"> Choose a state</option>
+                        <option value = "ak"> Alaska </option> 
+                        <option value = "ar"> Arizona </option>
+                        <option value = "ca"> California </option>
+                        <option value = "co"> Colorado </option>
+                        <option value = "fl"> Florida </option>
+                        <option value = "ga"> Georgia </option>
+                        <option value = "il"> Illinois </option>
+                        <option value = "in"> Indiana </option>
+                        <option value = "la"> Louisiana </option>
+                        <option value = "me"> Maine </option>
+                        <option value = "mi"> Michigan </option>
+                        <option value = "mo"> Montana </option>
+                        <option value = "ne"> Nebraska </option>
+                        <option value = "nh"> New Hampshire </option>
+                        <option value = "nj"> New Jersey </option> 
+                        <option value = "ny"> New York </option>
+                        <option value = "nc"> North Carolina </option>
+                        <option value = "nd"> North Dakota </option>
+                        <option value = "oh"> Ohio </option>
+                        <option value = "or"> Oregon </option>
+                        <option value = "pa"> Pennsylvania </option>
+                        <option value = "sc"> South Carolina </option>
+                        <option value = "tx"> Texas </option>
+                        <option value = "va"> Virgina </option>
+                        <option value = "wi"> Wisconsin </option>
+                        </select>
+                        Zip Code: <input type = "text" name = "zip" size = "5"> 
+                        Telephone: <input type = "text" name = "a_code" size = "3"> - <input type = "text" name = "m_num" size = "3"> - <input type = "text" name = "num" size = "4"> 
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Suggestion</legend>
+                    <p><textarea cols="60" rows="4" name="suggest" maxlength="200"></textarea></p>
+                    <input type="submit" value="Validate Form " />
+                </fieldset>
+        </form>
+    </div>
+     
+</body>
+</html>
